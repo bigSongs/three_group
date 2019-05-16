@@ -6,6 +6,15 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import '@/assets/rem.css'
+import '@/assets/rem.js'
+
+
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+Vue.use(VueAxios, axios)
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

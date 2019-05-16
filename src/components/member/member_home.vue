@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-   
+   会员
   </div>
 </template>
 
